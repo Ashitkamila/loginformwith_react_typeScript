@@ -63,7 +63,7 @@ const Form: React.FC = () => {
                         />
                         {emailError && <div className="error">{emailError}</div>}
                     </div>
-                    <button type="submit">Submit</button>
+                    <button className='submitBtn' type="submit">Submit</button>
                 </form>
             </div>
         </>
